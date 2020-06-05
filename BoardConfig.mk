@@ -18,6 +18,9 @@ DEVICE_PATH := device/oppo/CPH1859
 
 BOARD_VENDOR := oppo
 
+# Soong namespaces
+PRODUCT_SOONG_NAMESPACES += $(DEVICE_PATH)
+
 # TARGET_SPECIFIC_HEADER_PATH := $(DEVICE_PATH)/include
 
 # Assertions
@@ -91,9 +94,6 @@ BOARD_USES_RECOVERY_AS_BOOT := false
 TARGET_USES_MKE2FS := true
 TARGET_USERIMAGES_USE_EXT4 := true
 AB_OTA_UPDATER := false
-
-# System Properties
-TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system_prop.mk
 
 # Vendor
 TARGET_COPY_OUT_VENDOR := vendor
