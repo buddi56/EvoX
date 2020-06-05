@@ -1,0 +1,17 @@
+Patche taken from AOSPA Gerrit: https://gerrit.aospa.co/c/AOSPA/android_frameworks_base/+/9781. 
+
+EvoX needs it (Evo reverted this patch, check commit https://github.com/Evolution-X/frameworks_base/commit/ebf5eb73809cf3749c00325a64651bbeacfe7918#diff-c0c9630451d408f1b694c135e3a619b9).
+
+Thanks to AOSPA Team.
+
+cd root_directory_of_rom_src
+
+
+This is patch directory.
+# Apply patches
+
+sh device/oppo/CPH1859/patches/install.sh
+
+# Uninstall patches
+
+sh device/oppo/CPH1859/patches/uninstall.sh
