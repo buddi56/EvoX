@@ -1,6 +1,8 @@
-Patche taken from AOSPA Gerrit: https://gerrit.aospa.co/c/AOSPA/android_frameworks_base/+/9781. 
+Patch 1 taken from AOSPA Gerrit: https://gerrit.aospa.co/c/AOSPA/android_frameworks_base/+/9781. 
 
-EvoX needs it (Evo reverted this patch, check commit https://github.com/Evolution-X/frameworks_base/commit/ebf5eb73809cf3749c00325a64651bbeacfe7918#diff-c0c9630451d408f1b694c135e3a619b9).
+Patch 2 taken from AOSPA Gerrit: https://gerrit.aospa.co/c/AOSPA/android_external_skia/+/9782
+
+EvoX needs it (Evo reverted 1st patch, check commit https://github.com/Evolution-X/frameworks_base/commit/ebf5eb73809cf3749c00325a64651bbeacfe7918#diff-c0c9630451d408f1b694c135e3a619b9).
 
 Thanks to AOSPA Team.
 

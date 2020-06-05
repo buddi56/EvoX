@@ -2,7 +2,7 @@ echo $1
 rootdirectory="$PWD"
 # ---------------------------------
 
-dirs="frameworks/base"
+dirs="external/skia frameworks/base"
 
 for dir in $dirs ; do
 	cd $rootdirectory
